@@ -17,7 +17,7 @@ As touched upon previously, the dataset used for this project was <b>zillow.csv<
 
 The image below shows a bar graph that represents the zipcodes featured in <b>clark_df_filtered</b>, along with their respective <b>5-year ROIs (2013-2018)</b>:
 
-[image](https://github.com/jbenedito99/Zipcode-Time-Series-Modeling/assets/125815448/7701e0a9-9963-47aa-a39b-4680e0909063)
+![image](https://github.com/jbenedito99/Zipcode-Time-Series-Modeling/assets/125815448/7701e0a9-9963-47aa-a39b-4680e0909063)
 
 # ARIMA Modeling Results 
 The final chosen ARIMA model for forecasting had an <b>order</b> of <b>(1, 1, 0)</b> and a <b>seasonal order</b> of <b>(1, 1, 0, 12)</b>. These optimal parameters were selected via a grid search method. In terms of performance, the model had an <b>RMSE</b> of <b>about 11,000</b>, which is higher than ideal. This metric indicates that the predictions for the mean value of houses in a zipcode were off by about $11,000.  
@@ -34,7 +34,6 @@ Based on the forecasting performed by the final model, my suggestions are to inv
 * <b>89102</b>: 5-year ROI (2018-2023) of <b>about 109%</b>
 * <b>89142</b>: 5-year ROI (2018-2023) of <b>about 95%</b>
 
-Their locations on a map of Clark County are shown in the image below:
 ![image](https://github.com/jbenedito99/Zipcode-Time-Series-Modeling/assets/125815448/3879c98a-8dc3-47b8-b7d9-f6cf4a9278e2)
 
 # Sources and References
